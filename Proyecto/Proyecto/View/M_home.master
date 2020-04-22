@@ -1,0 +1,70 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controller/M_home.master.cs" Inherits="View_M_home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+        .auto-style2 {
+            font-size: medium;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+ <%-- ----------------------------------------------------- --%>
+        <header>
+            <nav class="nav nav-pills nav-fill fixed-top">
+                <a class="nav-item nav-link active" href="Login.aspx">Login</a>
+                <a class="nav-item nav-link" href="Registro_login.aspx">Registro</a>
+                <a class="nav-item nav-link" href="#">Link</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </nav>
+        </header>
+        <%-- ----------------------------------------------------- --%>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- FOOTER -->
+  <footer class="container border">
+      <p>Visita nuestras redes sociales </p>
+      
+      <div class="form-group offset-4">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a title="twitter" href="http://www.facebook.com">
+              <img src="../Imagenes/Footer/twitter.png" alt="facebook" width="20px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a title="facebook" href="http://www.facebook.com">
+              <img src="../Imagenes/Footer/facebook.png" alt="facebook" width="20px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a title="youtube" href="http://www.youtube.com">
+                        <img src="../Imagenes/Footer/youtube.png" alt="youtube" width="20px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a title="instagram" href="http://www.instagram.com">
+                        <img src="../Imagenes/Footer/instagram.png" alt="instagram" width="20px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a title="pinteres" href="https://co.pinterest.com">
+                        <img src="../Imagenes/Footer/pinterest.png" alt="pinteres" width="20px" /></a>
+         
+      </div>
+       <div class="offset-4">
+              <p>© 2020 ThinkJectCompany <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+          </div>
+  </footer>
+    <!-- Footeeeer -->
+
+</body>
+   
+</html>
