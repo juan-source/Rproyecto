@@ -9,6 +9,6 @@
 <link href="../resources/css/estilo_home.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    
+    <h1>Brayan jugamos call?</h1>
 </asp:Content>
 
